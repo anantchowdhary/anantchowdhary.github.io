@@ -1,1 +1,122 @@
-<title> Anant's Progress Report</title>
+<!DOCTYPE html>
+<title> Anant's Progress Report </title>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>Anant's Progress Report</h2>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Week : 2/20 - 2/26</h2>
+      <div class="fakeimg" style="height:180px;">
+        <div>
+            <image src = "food_2-20--2-26.png" height="170px"/> <image src = "screen_time_2-20--2-26.png" height="170px"/> <image src = "bed_time_2-20--2-26.png" height="170px"/> 
+        </div>
+    </div>
+      <p> &nbsp;&nbsp;&nbsp; 
+        <b>Food Tracking</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        <b>Screen Time</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <b>Bed Time</b></p>
+    <p><b>Summary: </b>
+        <br><br>1. Horrible week screen time wise.
+        <br>2. Could have been much better with food too.
+        <br>3. Could have been sleeping much earlier in general too.
+    </p>
+    <p><b>Steps to try next: </b>
+        <br><br>1. Take the WiFi plug out to help with screen time and be cognizant.
+        <br>2. Try to eat as early as possible.
+        <br>3. Try to make a protein shake in the morning itself (even if it's consumed in the evening).
+    </p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About</h2>
+      <p>The impediment to action advances action. What stands in the way becomes the way</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Memento Mori</h2>
+</div>
+
+</body>
+</html>
